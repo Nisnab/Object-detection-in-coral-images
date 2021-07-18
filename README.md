@@ -42,18 +42,11 @@ Folder structure
 ```
 ## Results
 
-
 <table>
     <tr>
     <td>
-     <img src="https://raw.githubusercontent.com/Nisnab/coralchallenge/download.png" />
+     <img src="https://github.com/Nisnab/coralchallenge/blob/main/download.png?raw=true" />
     </td>
       </tr>
   
   </table>
-
-## Acknowledgement
-
-Due to the fixed image size, the generated images are smaller in size. However, the generated images can be viewed in folders.
-
-The repository borrows heavily fron (https://github.com/suhoy901/ImageTranslation)
