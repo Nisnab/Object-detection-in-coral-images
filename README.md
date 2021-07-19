@@ -1,45 +1,8 @@
 # Object Detection in coral Images using Pytorch/Detectron2
-In this repository,  I implemented the object detection in coral mages using [Pytorch/Detectron2](https://github.com/facebookresearch/detectron2).
-## Table of contents
-* [Folder Structure](#FolderStructure)
-* [Results](#Results)
-* [Acknowledgement](#Acknowledgement)
-## Task Description
-
-```bash
-```
-Folder structure
---------------
-
-```
-├── datasets/Train/a       - this folder contains landscape images.
-│   ├── image1001.png
-│   └── image1002.png
-│   └── --------------------
-│
-│
-├── datasets/Train/b      - this folder contains Real-world images.
-│   ├── image1001.png
-│   └── image1002.png
-│   └── --------------------  
-│
-├── datasets/Test-set/a             - this folder contains Test images(landscapes).
-│   └── image1001.png
-│   └── -------------------- 
-│
-├── save_model    -- this folder contains saved model
-│
-│── Python-scripts      - this folder contains  python files(can be run driectly in Jupyter notebook/IDE)
-│
-├──  train-MANET.py        - this file is used for training image.
-│   
-├──  testing.py         - this file is used for generating test images.
-│   
-├──  result        - this folder contains generated test images.
-│ 
-└──logs/tensorlogs     
-
-```
+In this repository,  I implemented the object detection in coral images using [Pytorch/Detectron2](https://github.com/facebookresearch/detectron2).
+##Task Description
+The task is to detect bounding box in the format xmin,ymin, xmax & ymax. The coral images consists of 13 classes.
+We used Mask RCNN to detect bounding box.
 ## Results
 
 <table>
