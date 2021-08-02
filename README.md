@@ -19,13 +19,12 @@ Folder structure
 ```
 ├── data
 │   ├── allcoral --- this folder contains input images with coral species.
-│   └── annotations_boxes_training.csv --- this csv file contains location of species in bounding box format(xmin,ymin,xmax,ymax)
-│   └── detectron2.csv  ---this csv contains improvised format of species
+│   └── annotations_boxes_training.csv -- this .csv file contains location of species in format(xmin,ymin,xmax,ymax)
+│   └── detectron2.csv  ---this csv contains improvised format of species.
 │
 │
-├── save_model    -- this folder contains saved model
+├── annotated_results    -- this folder contains output images with bounding box.
 │
-│── Python-scripts      - this folder contains  python files(can be run driectly in Jupyter notebook/IDE)
 │
 ├──  train-MANET.py        - this file is used for training image.
 │   
