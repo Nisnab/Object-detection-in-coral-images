@@ -26,8 +26,9 @@ Folder structure
 ├── annotated_results    -- this folder contains output images with bounding box.
 │
 │
-├──  train-MANET.py        - this file is used for training image.
-│   
+├──  coco_eval     
+│   └──coco_instances_results.json --- this folder contains location of coral species in all output images
+│  
 ├──  testing.py         - this file is used for generating test images.
 │   
 ├──  result        - this folder contains generated test images.
