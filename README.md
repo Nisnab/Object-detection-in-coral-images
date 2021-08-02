@@ -30,12 +30,7 @@ Folder structure
 │  
 ├── output
 │   ├── instances_prediction --- this file cotains weights of the model in .pth format
-│   └── 
-│   └── --------------------
-│   
-├──  result        - this folder contains generated test images.
-│ 
-└──logs/tensorlogs     
+   
 
 ```
 
