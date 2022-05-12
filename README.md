@@ -11,7 +11,7 @@ We used Mask RCNN to detect bounding box.
 ## Task Description
 
 ```
-The task is to generate real images from landscape paintings.
+The task is to deetect coral objects in marine images.
 ```
 Folder structure
 --------------
